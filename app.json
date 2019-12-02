@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/car/index",
+    "pages/address/index",
+    "pages/logs/logs"
+  ],
+  "usingComponents": {
+    "ui-item": "/components/aotoo/item/index",
+    "ui-list": "/components/aotoo/list/index",
+    "ui-tree": "/components/aotoo/tree/index",
+    "ui-tab-choose": "/components/tabChoose/index",
+    "ui-ss-pop": "/components/ssPop/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "SaUI",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

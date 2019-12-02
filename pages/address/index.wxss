@@ -1,0 +1,38 @@
+.popups-wrap-trans {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+}
+.popups-wrap-trans {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-circle-solid {
+  border-radius: 100%;
+  background: #2773f5;
+  color: #fff;
+  font-size: 44rpx;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.selectionMenus {
+  position: fixed;
+  right: 0;
+  top: -40rpx;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}

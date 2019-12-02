@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<!-- <ui-item item="{{demo}}" /> -->
+<view class="boxer">
+  <ui-item item="{{item}}" />
+</view>
