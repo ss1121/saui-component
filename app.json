@@ -18,6 +18,7 @@
     "navigationBarTitleText": "SaUI",
     "navigationBarTextStyle": "black"
   },
+  "navigateToMiniProgramAppIdList": ["wx6dfd3ea360d61f4d"],
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

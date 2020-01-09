@@ -62,7 +62,6 @@ Component({
       })
     },
     lettertipx: function(params, time, inst) {
-      console.log(inst)
       const {title, itemClass} = params
       const that = this
       that.setData({

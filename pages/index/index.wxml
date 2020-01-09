@@ -2,4 +2,5 @@
 <!-- <ui-item item="{{demo}}" /> -->
 <view class="boxer">
   <ui-item item="{{item}}" />
+  <ui-ss-pop item="{{modal}}"/>
 </view>

@@ -17,7 +17,9 @@ function adapterDataStructure(data) {
         title: title,
         $$id: title,
         id: title,    //为了scroll-into-view
-        aim: 'onClickCityMenu?id='+title
+        // aim: 'onClickCityMenu?id='+title,
+        touchStart: 'touchStart',
+        touchEnd: 'touchEnd'
       })
       _contents.push({
         title: item.title.title ? item.title : ' ',
@@ -126,7 +128,7 @@ Component({
     __ready: function(){
       setTimeout(() => {
         this.onScrollIng('A')
-      }, 50);
+      }, 100);
     },
     reset: function(params){
       params = params ? params : [] 
@@ -242,6 +244,12 @@ Component({
       })
       this.onScrollIng(letter, '', inst)
       this.saveMenusIds.push(letter)
-    }
+    },
+    touchStart: function() {
+      console.log('======')
+    },
+    touchEnd: function() {
+      console.log('=====2222')
+    },
   }
 }) 

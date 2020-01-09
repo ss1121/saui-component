@@ -1,3 +1,9 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "SAUI组件",
+  "enablePullDownRefresh": true,
+  "disableScroll": true,
+  "usingComponents": {
+    "ui-item": "/components/aotoo/item/index",
+    "ui-list": "/components/aotoo/list/index"
+  }
 }
